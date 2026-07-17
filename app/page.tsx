@@ -19,13 +19,24 @@ export default function Home() {
           title={skincare.title}
           subtitle={skincare.subtitle}
         >
-          <iframe
-            title="Skincare & Deodorant"
-            src="https://shopmy.us/collections/public/6349690?noHeader=true"
-            style={{ width: "100%", minHeight: "1200px", border: "none" }}
-            className="block"
-            loading="lazy"
-          />
+          <div
+            style={{ position: "relative", width: "100%", height: "1246px", overflow: "hidden" }}
+          >
+            <iframe
+              title="Skincare & Deodorant"
+              src="https://shopmy.us/collections/public/6349690?noHeader=true"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "1523px",
+                border: "none",
+              }}
+              className="block"
+              loading="lazy"
+            />
+          </div>
         </ShopSection>
 
         <ShopSection
@@ -34,13 +45,24 @@ export default function Home() {
           title={wellness.title}
           subtitle={wellness.subtitle}
         >
-          <iframe
-            title="Wellness"
-            src="https://shopmy.us/collections/public/3141282?noHeader=true"
-            style={{ width: "100%", minHeight: "2400px", border: "none" }}
-            className="block"
-            loading="lazy"
-          />
+          <div
+            style={{ position: "relative", width: "100%", height: "1917px", overflow: "hidden" }}
+          >
+            <iframe
+              title="Wellness"
+              src="https://shopmy.us/collections/public/3141282?noHeader=true"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "2194px",
+                border: "none",
+              }}
+              className="block"
+              loading="lazy"
+            />
+          </div>
         </ShopSection>
 
         <ShopSection
@@ -49,13 +71,24 @@ export default function Home() {
           title={recovery.title}
           subtitle={recovery.subtitle}
         >
-          <iframe
-            title="Recovery"
-            src="https://shopmy.us/collections/public/3209702?noHeader=true"
-            style={{ width: "100%", minHeight: "1200px", border: "none" }}
-            className="block"
-            loading="lazy"
-          />
+          <div
+            style={{ position: "relative", width: "100%", height: "1207px", overflow: "hidden" }}
+          >
+            <iframe
+              title="Recovery"
+              src="https://shopmy.us/collections/public/3209702?noHeader=true"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "1484px",
+                border: "none",
+              }}
+              className="block"
+              loading="lazy"
+            />
+          </div>
         </ShopSection>
       </main>
       <Footer />

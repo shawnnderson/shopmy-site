@@ -59,6 +59,11 @@ const embeds: Record<
     cropHeight: 516,
     contentHeight: 793,
   },
+  "shop-hair-products": {
+    src: "https://shopmy.us/collections/public/6439144?noHeader=true",
+    cropHeight: 871,
+    contentHeight: 1148,
+  },
   "shop-powders-protein": {
     src: "https://shopmy.us/collections/public/3141282?noHeader=true",
     cropHeight: 1917,

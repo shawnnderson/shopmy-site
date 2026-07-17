@@ -47,6 +47,7 @@ export const site = {
         { id: "shop-sunscreen", title: "Sunscreen" },
         { id: "shop-skincare", title: "Skincare" },
         { id: "shop-deodorant", title: "Deodorant" },
+        { id: "shop-hair-products", title: "Hair Products" },
       ],
     },
   ],

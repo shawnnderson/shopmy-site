@@ -31,7 +31,7 @@ export default function ShopBrowser({ groups }: { groups: ShopGroup[] }) {
           return (
             <Fragment key={group.id}>
               {hasSubcategories && (
-                <div className="hidden shrink-0 px-4 pb-1 pt-5 text-[11px] font-semibold uppercase tracking-[0.25em] text-ink/40 first:pt-0 md:block">
+                <div className="hidden shrink-0 px-4 pb-1 pt-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-ink/40 md:block">
                   {group.title}
                 </div>
               )}

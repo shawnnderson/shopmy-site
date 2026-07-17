@@ -1,3 +1,6 @@
+// Matches the sidebar's pt-6 spacing above "Apparel" (components/ShopBrowser.tsx).
+const TOP_PADDING = 24;
+
 export default function ShopMyEmbed({
   title,
   src,
@@ -16,7 +19,7 @@ export default function ShopMyEmbed({
       style={{
         position: "relative",
         width: "100%",
-        height: `${cropHeight}px`,
+        height: `${cropHeight + TOP_PADDING}px`,
         overflow: "hidden",
       }}
     >
@@ -25,7 +28,7 @@ export default function ShopMyEmbed({
         src={src}
         style={{
           position: "absolute",
-          top: 0,
+          top: `${TOP_PADDING}px`,
           left: 0,
           width: "100%",
           height: `${contentHeight}px`,

@@ -27,6 +27,48 @@ export const site = {
       title: "Recovery",
       subtitle: "",
     },
+    {
+      id: "shop-athletic-apparel",
+      eyebrow: "Shop the collection",
+      title: "Athletic Apparel",
+      subtitle: "",
+    },
+    {
+      id: "shop-gym-bags",
+      eyebrow: "Shop the collection",
+      title: "Gym Bags",
+      subtitle: "",
+    },
+    {
+      id: "shop-mens-tops",
+      eyebrow: "Shop the collection",
+      title: "Men's Tops",
+      subtitle: "",
+    },
+    {
+      id: "shop-mens-bottoms",
+      eyebrow: "Shop the collection",
+      title: "Men's Bottoms",
+      subtitle: "",
+    },
+    {
+      id: "shop-loungewear",
+      eyebrow: "Shop the collection",
+      title: "Loungewear",
+      subtitle: "",
+    },
+    {
+      id: "shop-sneakers",
+      eyebrow: "Shop the collection",
+      title: "Sneakers",
+      subtitle: "",
+    },
+    {
+      id: "shop-mens-jackets-coats",
+      eyebrow: "Shop the collection",
+      title: "Men's Jackets & Coats",
+      subtitle: "",
+    },
   ],
   social: [
     { label: "Instagram", href: "https://instagram.com/yourhandle" },

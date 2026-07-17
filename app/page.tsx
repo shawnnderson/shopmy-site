@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
-import ShopBrowser, { type ShopCategory } from "@/components/ShopBrowser";
+import ShopBrowser, { type ShopGroup } from "@/components/ShopBrowser";
 import ShopSection from "@/components/ShopSection";
 import { site } from "@/config/site";
 
@@ -49,7 +49,7 @@ const embeds: Record<
     cropHeight: 1246,
     contentHeight: 1523,
   },
-  "shop-wellness": {
+  "shop-powders-protein": {
     src: "https://shopmy.us/collections/public/3141282?noHeader=true",
     cropHeight: 1917,
     contentHeight: 2194,
@@ -62,10 +62,14 @@ const embeds: Record<
 };
 
 export default function Home() {
-  const categories: ShopCategory[] = site.shopCategories.map((category) => ({
-    id: category.id,
-    title: category.title,
-    ...embeds[category.id],
+  const groups: ShopGroup[] = site.shopGroups.map((group) => ({
+    id: group.id,
+    title: group.title,
+    categories: group.categories.map((category) => ({
+      id: category.id,
+      title: category.title,
+      ...embeds[category.id],
+    })),
   }));
 
   return (
@@ -80,7 +84,7 @@ export default function Home() {
           title={site.shop.title}
           subtitle={site.shop.subtitle}
         >
-          <ShopBrowser categories={categories} />
+          <ShopBrowser groups={groups} />
         </ShopSection>
       </main>
       <Footer />

@@ -14,17 +14,37 @@ export const site = {
     title: "Shop My Picks",
     subtitle: "Browse by category — everything I actually wear and use.",
   },
-  shopCategories: [
-    { id: "shop-mens-tops", title: "Men's Tops" },
-    { id: "shop-mens-bottoms", title: "Men's Bottoms" },
-    { id: "shop-loungewear", title: "Loungewear" },
-    { id: "shop-mens-jackets-coats", title: "Men's Jackets & Coats" },
-    { id: "shop-athletic-apparel", title: "Athletic Apparel" },
-    { id: "shop-sneakers", title: "Sneakers" },
-    { id: "shop-gym-bags", title: "Gym Bags" },
-    { id: "shop-skincare", title: "Skincare & Deodorant" },
-    { id: "shop-wellness", title: "Wellness" },
-    { id: "shop-recovery", title: "Recovery" },
+  shopGroups: [
+    {
+      id: "apparel",
+      title: "Apparel",
+      categories: [
+        { id: "shop-mens-tops", title: "Men's Tops" },
+        { id: "shop-mens-bottoms", title: "Men's Bottoms" },
+        { id: "shop-loungewear", title: "Loungewear" },
+        { id: "shop-mens-jackets-coats", title: "Men's Jackets & Coats" },
+      ],
+    },
+    {
+      id: "for-the-athlete",
+      title: "For The Athlete",
+      categories: [
+        { id: "shop-athletic-apparel", title: "Athletic Apparel" },
+        { id: "shop-gym-bags", title: "Gym Bags" },
+        { id: "shop-powders-protein", title: "Powders & Protein" },
+        { id: "shop-recovery", title: "Recovery" },
+      ],
+    },
+    {
+      id: "sneakers",
+      title: "Sneakers",
+      categories: [{ id: "shop-sneakers", title: "Sneakers" }],
+    },
+    {
+      id: "skincare-deodorant",
+      title: "Skincare & Deodorant",
+      categories: [{ id: "shop-skincare", title: "Skincare & Deodorant" }],
+    },
   ],
   social: [
     { label: "Instagram", href: "https://instagram.com/yourhandle" },

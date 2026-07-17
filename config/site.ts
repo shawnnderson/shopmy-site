@@ -19,10 +19,10 @@ export const site = {
       id: "apparel",
       title: "Apparel",
       categories: [
-        { id: "shop-mens-tops", title: "Men's Tops" },
-        { id: "shop-mens-bottoms", title: "Men's Bottoms" },
+        { id: "shop-mens-tops", title: "Tops" },
+        { id: "shop-mens-bottoms", title: "Bottoms" },
         { id: "shop-loungewear", title: "Loungewear" },
-        { id: "shop-mens-jackets-coats", title: "Men's Jackets & Coats" },
+        { id: "shop-mens-jackets-coats", title: "Outerwear" },
       ],
     },
     {

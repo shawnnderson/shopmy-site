@@ -43,7 +43,11 @@ export const site = {
     {
       id: "grooming",
       title: "Grooming",
-      categories: [{ id: "shop-grooming", title: "Grooming" }],
+      categories: [
+        { id: "shop-sunscreen", title: "Sunscreen" },
+        { id: "shop-skincare", title: "Skincare" },
+        { id: "shop-deodorant", title: "Deodorant" },
+      ],
     },
   ],
   social: [

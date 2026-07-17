@@ -44,10 +44,20 @@ const embeds: Record<
     cropHeight: 516,
     contentHeight: 793,
   },
-  "shop-grooming": {
-    src: "https://shopmy.us/collections/public/6349690?noHeader=true",
-    cropHeight: 1246,
-    contentHeight: 1523,
+  "shop-sunscreen": {
+    src: "https://shopmy.us/collections/public/6438954?noHeader=true",
+    cropHeight: 536,
+    contentHeight: 813,
+  },
+  "shop-skincare": {
+    src: "https://shopmy.us/collections/public/6438946?noHeader=true",
+    cropHeight: 871,
+    contentHeight: 1148,
+  },
+  "shop-deodorant": {
+    src: "https://shopmy.us/collections/public/6438935?noHeader=true",
+    cropHeight: 516,
+    contentHeight: 793,
   },
   "shop-powders-protein": {
     src: "https://shopmy.us/collections/public/3141282?noHeader=true",

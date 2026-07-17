@@ -44,7 +44,7 @@ const embeds: Record<
     cropHeight: 516,
     contentHeight: 793,
   },
-  "shop-skincare": {
+  "shop-grooming": {
     src: "https://shopmy.us/collections/public/6349690?noHeader=true",
     cropHeight: 1246,
     contentHeight: 1523,

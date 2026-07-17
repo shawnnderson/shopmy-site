@@ -41,9 +41,9 @@ export const site = {
       categories: [{ id: "shop-sneakers", title: "Sneakers" }],
     },
     {
-      id: "skincare-deodorant",
-      title: "Skincare & Deodorant",
-      categories: [{ id: "shop-skincare", title: "Skincare & Deodorant" }],
+      id: "grooming",
+      title: "Grooming",
+      categories: [{ id: "shop-grooming", title: "Grooming" }],
     },
   ],
   social: [

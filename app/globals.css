@@ -1,26 +1,77 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+  Rage Italic and Proxima Nova are commercial fonts and aren't bundled here.
+  Drop licensed files into /public/fonts (see public/fonts/README.md) and these
+  @font-face rules pick them up automatically. Until then, the stack below
+  falls back to Playfair Display (italic) and Inter, both loaded for free via
+  next/font/google in app/layout.tsx, so the site looks intentional out of the box.
+*/
+@font-face {
+  font-family: "Rage Italic";
+  src:
+    url("/fonts/RageItalic.woff2") format("woff2"),
+    url("/fonts/RageItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src:
+    url("/fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("/fonts/ProximaNova-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src:
+    url("/fonts/ProximaNova-Semibold.woff2") format("woff2"),
+    url("/fonts/ProximaNova-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src:
+    url("/fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("/fonts/ProximaNova-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: #f4f1e8;
+  --color-ink: #14130f;
+  --color-pine: #00755e;
+  --color-pine-deep: #00503f;
+  --color-volt: #ceff00;
+  --color-stone: #e7e2d3;
+  --color-mute: #726e5c;
+
+  --font-brand: var(--font-alex-brush), cursive;
+  --font-display: "Rage Italic", var(--font-playfair), Georgia, serif;
+  --font-sans:
+    "Proxima Nova", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
 }

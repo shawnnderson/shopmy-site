@@ -36,9 +36,6 @@ function LoginForm() {
       <a href="#top" className="font-brand text-4xl leading-none text-paper">
         {site.brandName}
       </a>
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-paper/70">
-        This site is password protected
-      </p>
       <input
         type="password"
         value={password}

@@ -52,7 +52,7 @@ export const site = {
     },
   ],
   social: [
-    { label: "Instagram", href: "https://instagram.com/yourhandle" },
+    { label: "Instagram", href: "https://instagram.com/shawnnderson" },
     { label: "TikTok", href: "https://tiktok.com/@yourhandle" },
     { label: "YouTube", href: "https://youtube.com/@yourhandle" },
   ],

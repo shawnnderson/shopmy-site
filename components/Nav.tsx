@@ -48,11 +48,11 @@ export default function Nav({ groups }: { groups: ShopGroup[] }) {
           : "border-b border-transparent bg-transparent text-paper"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 md:px-10">
-        <a href="#top" className="font-brand text-2xl leading-none">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 md:px-10">
+        <a href="#top" className="font-brand text-xl leading-none">
           {site.brandName}
         </a>
-        <nav className="flex items-center gap-6 sm:gap-8">
+        <nav className="flex items-center gap-4 sm:gap-6">
           <a
             href="#shop"
             className="hidden text-xs font-semibold uppercase tracking-[0.2em] transition-opacity hover:opacity-60 md:inline"

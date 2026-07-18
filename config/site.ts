@@ -1,6 +1,6 @@
 export const site = {
   brandName: "George",
-  tagline: "A short line about what you curate, and why it's worth trusting.",
+  tagline: "Everything I actually wear, use, and recommend. No doomscrolling here.",
   metaDescription:
     "Curated finds and everyday favorites — shop the collections I actually use.",
   heroCta: {

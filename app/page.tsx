@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import ShopBrowser, { type ShopGroup } from "@/components/ShopBrowser";
+import { ShopSelectionProvider } from "@/components/ShopSelection";
 import ShopSection from "@/components/ShopSection";
 import { site } from "@/config/site";
 
@@ -88,8 +89,8 @@ export default function Home() {
   }));
 
   return (
-    <>
-      <Nav />
+    <ShopSelectionProvider initialId={groups[0].categories[0].id}>
+      <Nav groups={groups} />
       <main className="flex-1">
         <Hero />
 
@@ -103,6 +104,6 @@ export default function Home() {
         </ShopSection>
       </main>
       <Footer />
-    </>
+    </ShopSelectionProvider>
   );
 }

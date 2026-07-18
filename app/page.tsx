@@ -17,13 +17,13 @@ const embeds: Record<
   },
   "shop-mens-bottoms": {
     src: "https://shopmy.us/collections/public/3209516?noHeader=true",
-    cropHeight: 1187,
-    contentHeight: 1464,
+    cropHeight: 852,
+    contentHeight: 1129,
   },
   "shop-loungewear": {
     src: "https://shopmy.us/collections/public/3141299?noHeader=true",
-    cropHeight: 1543,
-    contentHeight: 1820,
+    cropHeight: 1187,
+    contentHeight: 1464,
   },
   "shop-mens-jackets-coats": {
     src: "https://shopmy.us/collections/public/6349353?noHeader=true",

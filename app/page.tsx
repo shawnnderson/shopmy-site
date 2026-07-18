@@ -35,10 +35,15 @@ const embeds: Record<
     cropHeight: 1582,
     contentHeight: 1859,
   },
-  "shop-sneakers": {
+  "shop-sneakers-lifestyle": {
     src: "https://shopmy.us/collections/public/3141273?noHeader=true",
     cropHeight: 1227,
     contentHeight: 1504,
+  },
+  "shop-sneakers-training": {
+    src: "https://shopmy.us/collections/public/6442645?noHeader=true",
+    cropHeight: 497,
+    contentHeight: 774,
   },
   "shop-gym-bags": {
     src: "https://shopmy.us/collections/public/6349581?noHeader=true",

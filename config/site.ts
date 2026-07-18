@@ -37,16 +37,19 @@ export const site = {
     {
       id: "sneakers",
       title: "Sneakers",
-      categories: [{ id: "shop-sneakers", title: "Sneakers" }],
+      categories: [
+        { id: "shop-sneakers-lifestyle", title: "Lifestyle" },
+        { id: "shop-sneakers-training", title: "Training" },
+      ],
     },
     {
       id: "grooming",
       title: "Grooming",
       categories: [
-        { id: "shop-sunscreen", title: "Sunscreen" },
+        { id: "shop-hair-products", title: "Hair Products" },
         { id: "shop-skincare", title: "Skincare" },
         { id: "shop-deodorant", title: "Deodorant" },
-        { id: "shop-hair-products", title: "Hair Products" },
+        { id: "shop-sunscreen", title: "Sunscreen" },
       ],
     },
   ],

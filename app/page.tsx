@@ -98,7 +98,6 @@ export default function Home() {
           id={site.shop.id}
           eyebrow={site.shop.eyebrow}
           title={site.shop.title}
-          subtitle={site.shop.subtitle}
         >
           <ShopBrowser groups={groups} />
         </ShopSection>

@@ -12,7 +12,6 @@ export const site = {
     id: "shop",
     eyebrow: "Shop the collection",
     title: "Shop My Picks",
-    subtitle: "Browse by category — everything I actually wear and use.",
   },
   shopGroups: [
     {

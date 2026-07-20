@@ -45,7 +45,7 @@ export default function SearchBar() {
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => setOpen(true)}
         placeholder="Search"
-        className="w-28 rounded-full border border-current/25 bg-transparent px-3 py-1.5 text-xs placeholder-current/50 transition-[width] focus:w-44 focus:outline-none focus:ring-1 focus:ring-volt sm:w-36 sm:focus:w-56"
+        className="w-40 rounded-full border border-current/25 bg-transparent px-3 py-1.5 text-xs placeholder-current/50 transition-[width] focus:w-56 focus:outline-none focus:ring-1 focus:ring-volt sm:w-48 sm:focus:w-72"
       />
 
       {open && query.trim() && (

@@ -12,7 +12,7 @@ export default function About() {
           <img
             src="/george-logo.png"
             alt={`${site.brandName} logo`}
-            className="h-auto w-64 sm:w-72 md:w-80"
+            className="h-auto w-72 sm:w-96 md:w-[28rem]"
           />
         </div>
         <div className="max-w-xl">

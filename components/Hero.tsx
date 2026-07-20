@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[60vh] flex-col items-center justify-center bg-pine px-6 text-center text-paper"
+      className="relative flex min-h-[75vh] flex-col items-center justify-center bg-pine px-6 text-center text-paper"
     >
       <div className="relative z-10 flex max-w-3xl flex-col items-center gap-6">
         <span className="text-xs font-semibold uppercase tracking-[0.35em] text-volt">

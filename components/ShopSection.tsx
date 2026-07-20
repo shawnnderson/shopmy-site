@@ -16,7 +16,7 @@ export default function ShopSection({
   children?: ReactNode;
 }) {
   return (
-    <section id={id} className="border-t border-ink/10 bg-paper px-6 py-24 md:px-10">
+    <section id={id} className="border-t border-ink/10 bg-paper px-6 pb-24 pt-12 md:px-10">
       <div className="mx-auto max-w-6xl">
         <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>

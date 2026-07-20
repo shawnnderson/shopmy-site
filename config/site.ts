@@ -7,7 +7,10 @@ export const site = {
     label: "Shop My Picks",
     href: "#shop",
   },
-  nav: [{ label: "Shop", href: "#shop" }],
+  nav: [
+    { label: "Shop", href: "#shop" },
+    { label: "About", href: "#about" },
+  ],
   shop: {
     id: "shop",
     eyebrow: "Shop the collection",

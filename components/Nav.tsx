@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { site } from "@/config/site";
-import SearchBar from "./SearchBar";
 import type { ShopGroup } from "./ShopBrowser";
 import { useShopSelection } from "./ShopSelection";
 
@@ -54,8 +53,6 @@ export default function Nav({ groups }: { groups: ShopGroup[] }) {
           {site.brandName}
         </a>
         <nav className="flex items-center gap-4 sm:gap-6">
-          <SearchBar />
-
           <a
             href="#shop"
             className="hidden text-xs font-semibold uppercase tracking-[0.2em] transition-opacity hover:opacity-60 md:inline"

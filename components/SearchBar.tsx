@@ -7,18 +7,18 @@ export default function SearchBar() {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [products, setProducts] = useState<Product[] | null>(null);
-  const [loading, setLoading] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const fetchingRef = useRef(false);
+  const loading = open && products === null;
 
   useEffect(() => {
-    if (!open || products || loading) return;
-    setLoading(true);
+    if (!open || products || fetchingRef.current) return;
+    fetchingRef.current = true;
     fetch("/api/products")
       .then((res) => res.json())
       .then((data) => setProducts(data.products ?? []))
-      .catch(() => setProducts([]))
-      .finally(() => setLoading(false));
-  }, [open, products, loading]);
+      .catch(() => setProducts([]));
+  }, [open, products]);
 
   useEffect(() => {
     if (!open) return;

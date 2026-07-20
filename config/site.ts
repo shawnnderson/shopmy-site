@@ -22,6 +22,7 @@ export const site = {
         { id: "shop-mens-bottoms", title: "Bottoms" },
         { id: "shop-loungewear", title: "Loungewear" },
         { id: "shop-mens-jackets-coats", title: "Outerwear" },
+        { id: "shop-apparel-athletic", title: "Athletic Apparel" },
       ],
     },
     {
@@ -36,7 +37,7 @@ export const site = {
     },
     {
       id: "sneakers",
-      title: "Sneakers",
+      title: "Footwear",
       categories: [
         { id: "shop-sneakers-lifestyle", title: "Lifestyle" },
         { id: "shop-sneakers-training", title: "Training" },

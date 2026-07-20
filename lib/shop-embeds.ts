@@ -29,6 +29,11 @@ export const embeds: Record<
     cropHeight: 1582,
     contentHeight: 1859,
   },
+  "shop-apparel-athletic": {
+    src: "https://shopmy.us/collections/public/3141243?noHeader=true",
+    cropHeight: 1582,
+    contentHeight: 1859,
+  },
   "shop-sneakers-lifestyle": {
     src: "https://shopmy.us/collections/public/3141273?noHeader=true",
     cropHeight: 1227,

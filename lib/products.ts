@@ -31,7 +31,7 @@ function toPublicImageUrl(image: string): string {
 
 async function fetchCategoryProducts(
   category: CategorySource,
-): Promise<Product[]> {
+): Promise<(Product & { pinId: number })[]> {
   if (!category.collectionId) return [];
 
   try {
@@ -45,6 +45,7 @@ async function fetchCategoryProducts(
 
     return (data.pins ?? []).map((pin) => ({
       id: `${category.id}-${pin.id}`,
+      pinId: pin.id,
       title: pin.title,
       image: toPublicImageUrl(pin.image),
       href: pin.affiliate_link,
@@ -61,5 +62,15 @@ export async function getAllProducts(): Promise<Product[]> {
   const results = await Promise.all(
     getFlatCategories().map(fetchCategoryProducts),
   );
-  return results.flat();
+
+  // The same ShopMy collection can be linked under more than one of our
+  // category tabs; de-dupe so identical pins don't show twice in search.
+  const seenPinIds = new Set<number>();
+  const products: Product[] = [];
+  for (const { pinId, ...product } of results.flat()) {
+    if (seenPinIds.has(pinId)) continue;
+    seenPinIds.add(pinId);
+    products.push(product);
+  }
+  return products;
 }

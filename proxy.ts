@@ -3,7 +3,7 @@ import { AUTH_COOKIE, getExpectedAuthToken } from "@/lib/auth";
 
 export const config = {
   matcher: [
-    "/((?!api/login|login|_next/static|_next/image|favicon.ico|fonts).*)",
+    "/((?!api/login|login|_next/static|_next/image|favicon.ico|icon.png|fonts).*)",
   ],
 };
 

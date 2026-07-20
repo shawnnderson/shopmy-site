@@ -32,28 +32,6 @@ export default function ShopBrowser({ groups }: { groups: ShopGroup[] }) {
     <div className="flex flex-col md:flex-row md:items-stretch">
       <nav className="hidden md:flex md:w-56 md:flex-none md:flex-col md:border-r md:border-ink/10">
         {groups.map((group) => {
-          const hasSubcategories = group.categories.length > 1;
-
-          if (!hasSubcategories) {
-            const category = group.categories[0];
-            const isActive = category.id === active.id;
-            return (
-              <button
-                key={group.id}
-                type="button"
-                onClick={() => setActiveId(category.id)}
-                aria-current={isActive}
-                className={`border-l-2 px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.15em] transition-colors ${
-                  isActive
-                    ? "border-pine text-pine"
-                    : "border-transparent text-mute hover:text-ink"
-                }`}
-              >
-                {category.title}
-              </button>
-            );
-          }
-
           const isOpen =
             group.id === activeGroup?.id || group.id === hoveredGroupId;
 

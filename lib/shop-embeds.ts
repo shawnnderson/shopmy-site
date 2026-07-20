@@ -24,11 +24,6 @@ export const embeds: Record<
     cropHeight: 497,
     contentHeight: 774,
   },
-  "shop-athletic-apparel": {
-    src: "https://shopmy.us/collections/public/3141243?noHeader=true",
-    cropHeight: 1582,
-    contentHeight: 1859,
-  },
   "shop-apparel-athletic": {
     src: "https://shopmy.us/collections/public/3141243?noHeader=true",
     cropHeight: 1582,
@@ -43,11 +38,6 @@ export const embeds: Record<
     src: "https://shopmy.us/collections/public/6442645?noHeader=true",
     cropHeight: 497,
     contentHeight: 774,
-  },
-  "shop-gym-bags": {
-    src: "https://shopmy.us/collections/public/6349581?noHeader=true",
-    cropHeight: 516,
-    contentHeight: 793,
   },
   "shop-sunscreen": {
     src: "https://shopmy.us/collections/public/6438954?noHeader=true",
@@ -68,16 +58,6 @@ export const embeds: Record<
     src: "https://shopmy.us/collections/public/6439144?noHeader=true",
     cropHeight: 871,
     contentHeight: 1148,
-  },
-  "shop-powders-protein": {
-    src: "https://shopmy.us/collections/public/3141282?noHeader=true",
-    cropHeight: 1917,
-    contentHeight: 2194,
-  },
-  "shop-recovery": {
-    src: "https://shopmy.us/collections/public/3209702?noHeader=true",
-    cropHeight: 1207,
-    contentHeight: 1484,
   },
   "shop-protein-bars": {
     src: "https://shopmy.us/collections/public/6487629?noHeader=true",

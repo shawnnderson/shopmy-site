@@ -26,16 +26,6 @@ export const site = {
       ],
     },
     {
-      id: "for-the-athlete",
-      title: "For The Athlete",
-      categories: [
-        { id: "shop-athletic-apparel", title: "Athletic Apparel" },
-        { id: "shop-gym-bags", title: "Gym Bags" },
-        { id: "shop-powders-protein", title: "Powders & Protein" },
-        { id: "shop-recovery", title: "Recovery" },
-      ],
-    },
-    {
       id: "sneakers",
       title: "Footwear",
       categories: [

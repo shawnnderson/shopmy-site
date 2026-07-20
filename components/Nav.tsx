@@ -82,11 +82,9 @@ export default function Nav({ groups }: { groups: ShopGroup[] }) {
               <div className="absolute right-0 top-full mt-3 max-h-[70vh] w-64 overflow-y-auto border border-ink/10 bg-paper text-ink shadow-lg">
                 {groups.map((group) => (
                   <div key={group.id}>
-                    {group.categories.length > 1 && (
-                      <div className="px-4 pb-1 pt-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-ink/40">
-                        {group.title}
-                      </div>
-                    )}
+                    <div className="px-4 pb-1 pt-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-ink/40">
+                      {group.title}
+                    </div>
                     {group.categories.map((category) => (
                       <button
                         key={category.id}

@@ -21,13 +21,13 @@ export default function About() {
               About
             </span>
             <p className="font-display mt-4 text-2xl italic leading-relaxed text-paper/90 sm:text-3xl">
-              “Hi there! I’m George. I am here to solve the global problem of
-              men trying to shop. I am not here to fully elevate your style,
-              but help build a strong foundation. I am not a stylist, doctor,
-              or a nutritionist. These are just products that I use and
-              recommend based on how they make me feel. All of these links
-              are affiliate links, meaning I get paid commission when you
-              shop with me.”
+              Hi there! I’m George. I am here to solve the global problem of
+              men trying to shop. I am not here to fully elevate your style
+              or help you win your next HYROX race, but provide a strong
+              foundation. I am not a stylist, doctor, or a nutritionist.
+              These are just products that I use and recommend based on how
+              they make me feel. All of these links are affiliate links,
+              meaning I get paid commission when you shop with me.
             </p>
           </div>
         </div>

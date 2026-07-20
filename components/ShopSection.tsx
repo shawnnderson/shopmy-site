@@ -5,12 +5,14 @@ export default function ShopSection({
   eyebrow,
   title,
   subtitle,
+  action,
   children,
 }: {
   id: string;
   eyebrow: string;
   title: string;
   subtitle?: string;
+  action?: ReactNode;
   children?: ReactNode;
 }) {
   return (
@@ -25,9 +27,12 @@ export default function ShopSection({
               {title}
             </h2>
           </div>
-          {subtitle && (
-            <p className="max-w-sm text-sm text-mute">{subtitle}</p>
-          )}
+          <div className="flex items-center gap-4">
+            {subtitle && (
+              <p className="max-w-sm text-sm text-mute">{subtitle}</p>
+            )}
+            {action}
+          </div>
         </div>
 
         {children ? (

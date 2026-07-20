@@ -1,6 +1,8 @@
+import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
+import SearchBar from "@/components/SearchBar";
 import ShopBrowser, { type ShopGroup } from "@/components/ShopBrowser";
 import { ShopSelectionProvider } from "@/components/ShopSelection";
 import ShopSection from "@/components/ShopSection";
@@ -28,9 +30,12 @@ export default function Home() {
           id={site.shop.id}
           eyebrow={site.shop.eyebrow}
           title={site.shop.title}
+          action={<SearchBar />}
         >
           <ShopBrowser groups={groups} />
         </ShopSection>
+
+        <About />
       </main>
       <Footer />
     </ShopSelectionProvider>

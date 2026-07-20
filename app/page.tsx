@@ -28,7 +28,6 @@ export default function Home() {
 
         <ShopSection
           id={site.shop.id}
-          eyebrow={site.shop.eyebrow}
           title={site.shop.title}
           action={<SearchBar />}
         >

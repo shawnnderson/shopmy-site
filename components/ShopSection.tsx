@@ -9,7 +9,7 @@ export default function ShopSection({
   children,
 }: {
   id: string;
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   subtitle?: string;
   action?: ReactNode;
@@ -20,9 +20,11 @@ export default function ShopSection({
       <div className="mx-auto max-w-6xl">
         <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-[0.3em] text-pine">
-              {eyebrow}
-            </span>
+            {eyebrow && (
+              <span className="text-xs font-semibold uppercase tracking-[0.3em] text-pine">
+                {eyebrow}
+              </span>
+            )}
             <h2 className="font-display mt-2 text-4xl italic sm:text-5xl">
               {title}
             </h2>

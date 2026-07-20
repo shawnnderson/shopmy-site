@@ -13,7 +13,6 @@ export const site = {
   ],
   shop: {
     id: "shop",
-    eyebrow: "Shop the collection",
     title: "Shop My Picks",
   },
   shopGroups: [

@@ -1,3 +1,4 @@
+import SearchBar from "./SearchBar";
 import { site } from "@/config/site";
 
 export default function Hero() {
@@ -16,12 +17,15 @@ export default function Hero() {
         <p className="font-display max-w-xl text-2xl italic text-paper/90 sm:text-3xl">
           {site.tagline}
         </p>
-        <a
-          href={site.heroCta.href}
-          className="mt-4 inline-flex items-center gap-2 bg-volt px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-ink transition-transform hover:-translate-y-0.5"
-        >
-          {site.heroCta.label}
-        </a>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+          <a
+            href={site.heroCta.href}
+            className="inline-flex items-center gap-2 bg-volt px-6 py-3 text-xs font-bold uppercase tracking-[0.2em] text-ink transition-transform hover:-translate-y-0.5"
+          >
+            {site.heroCta.label}
+          </a>
+          <SearchBar />
+        </div>
       </div>
 
       <a

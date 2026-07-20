@@ -7,7 +7,7 @@ export default function About() {
       className="bg-pine px-6 py-24 text-paper md:px-10"
     >
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-12 md:flex-row md:items-start md:justify-between">
-        <div className="flex-none md:mt-6">
+        <div className="flex-none md:mt-[58px]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/george-logo.png"

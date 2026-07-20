@@ -57,7 +57,7 @@ export const site = {
     {
       id: "gift-guides",
       title: "Gift Guides",
-      categories: [{ id: "shop-gift-guides", title: "Gift Guides" }],
+      categories: [{ id: "shop-gift-guides", title: "For the Athlete" }],
     },
     {
       id: "accessories",

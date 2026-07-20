@@ -79,6 +79,41 @@ export const embeds: Record<
     cropHeight: 1207,
     contentHeight: 1484,
   },
+  "shop-protein-bars": {
+    src: "https://shopmy.us/collections/public/6487629?noHeader=true",
+    cropHeight: 323,
+    contentHeight: 600,
+  },
+  "shop-daily-essentials": {
+    src: "https://shopmy.us/collections/public/3141282?noHeader=true",
+    cropHeight: 1917,
+    contentHeight: 2194,
+  },
+  "shop-gift-guides": {
+    src: "https://shopmy.us/collections/public/6487381?noHeader=true",
+    cropHeight: 2123,
+    contentHeight: 2400,
+  },
+  "shop-ties": {
+    src: "https://shopmy.us/collections/public/6487896?noHeader=true",
+    cropHeight: 323,
+    contentHeight: 600,
+  },
+  "shop-belts": {
+    src: "https://shopmy.us/collections/public/6487886?noHeader=true",
+    cropHeight: 323,
+    contentHeight: 600,
+  },
+  "shop-accessories-bags": {
+    src: "https://shopmy.us/collections/public/6349581?noHeader=true",
+    cropHeight: 516,
+    contentHeight: 793,
+  },
+  "shop-recovery-gear": {
+    src: "https://shopmy.us/collections/public/3209702?noHeader=true",
+    cropHeight: 1207,
+    contentHeight: 1484,
+  },
 };
 
 export type CategorySource = {

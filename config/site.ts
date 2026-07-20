@@ -53,6 +53,29 @@ export const site = {
         { id: "shop-sunscreen", title: "Sunscreen" },
       ],
     },
+    {
+      id: "pantry",
+      title: "Pantry",
+      categories: [
+        { id: "shop-protein-bars", title: "Protein Bars" },
+        { id: "shop-daily-essentials", title: "Daily Essentials" },
+      ],
+    },
+    {
+      id: "gift-guides",
+      title: "Gift Guides",
+      categories: [{ id: "shop-gift-guides", title: "Gift Guides" }],
+    },
+    {
+      id: "accessories",
+      title: "Accessories",
+      categories: [
+        { id: "shop-ties", title: "Ties" },
+        { id: "shop-belts", title: "Belts" },
+        { id: "shop-accessories-bags", title: "Bags" },
+        { id: "shop-recovery-gear", title: "Recovery Gear" },
+      ],
+    },
   ],
   social: [
     { label: "Instagram", href: "https://instagram.com/shawnnderson" },

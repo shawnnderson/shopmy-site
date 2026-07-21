@@ -70,6 +70,6 @@ export const site = {
     },
   ],
   social: [
-    { label: "Instagram", href: "https://instagram.com/shawnnderson" },
+    { label: "Substack", href: "https://substack.com/@helloitsgeorge" },
   ],
 } as const;
